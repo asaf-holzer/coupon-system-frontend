@@ -1,0 +1,9 @@
+<h1>welcome company </h1>
+<h3>choose yours task</h3>
+<button mat-raised-button color="primary" [routerLink]="['/company/get-company-coupons']" routerLinkActive="router-link-active" >company coupons</button>
+<br>
+<button (click)="openDialog('sort By Category', {})" mat-raised-button color="primary" >company coupons sort by category</button>
+<br>
+<button (click)="openDialog('sort By Max Price', {})" mat-raised-button color="primary" >company coupons sort by Max Price</button>
+<br>
+<button mat-raised-button color="primary" [routerLink]="['/company/get-company-details']" routerLinkActive="router-link-active" >company details</button>

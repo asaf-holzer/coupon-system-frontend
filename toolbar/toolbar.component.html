@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><img title="Home Page" src="../../../assets/images/SUMO-Coupons-Featured-Image2.png"  width="80px" [routerLink]="['/home']" routerLinkActive="router-link-active"></span>
+  
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+ 
+    <button title="login" (click)="change()" *ngIf="flag" mat-icon-button class="example-icon login-icon" aria-label="Example icon-button with heart icon" [routerLink]="['/login']" routerLinkActive="router-link-active" >
+        <mat-icon >login</mat-icon>
+      </button>
+      
+    <button title="logout"  (click)="openDialog('Logout',{})" (click)="change()" *ngIf="!flag" mat-icon-button class="example-icon login-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>exit_to_app</mat-icon>
+    </button>  
+  </mat-toolbar>
+  
+
+  

@@ -1,0 +1,47 @@
+div{
+    margin: 3rem;
+  }
+  
+  
+  h3{
+      margin: 1rem; 
+    }
+    img {
+      border-radius: 6px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .example-fill-remaining-space {
+      /* This fills the remaining space, by using flexbox. 
+         Every toolbar row uses a flexbox row layout. */
+      flex: 1 1 auto;
+    }
+  
+    .navbar{
+        justify-content: space-between;
+    }
+  
+    span{
+        padding-right: 1rem;
+    }
+
+    /* .mat-button.mat-success,
+    .mat-stroked-button.mat-success {
+        color: #15c53e;
+    }
+    .mat-button.mat-success:hover,
+    .mat-stroked-button.mat-success:hover {
+      background-color: #f0fff3;
+    }
+    
+    .mat-raised-button.mat-success,
+    .mat-flat-button.mat-success,
+    .mat-fab.mat-success,
+    .mat-mini-fab.mat-success {
+      color: #f0fff3;
+      background-color: #15c53e;
+    }
+    
+    .mat-icon-button.mat-success {
+      color:#15c53e;
+    } */

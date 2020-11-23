@@ -1,0 +1,89 @@
+div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 0;    
+}
+
+#arrow{
+  
+    position: absolute;
+    left: 150px;
+    
+    
+}
+
+mat-icon{
+color: rgb(146, 124, 209);;
+font-size: 15px;
+}
+
+
+
+h1{
+    font-family: serif;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 8px;
+  width: 100%;
+  
+}
+
+td{
+  height: 1x;
+  text-align: left;
+  font-size: 12px;
+  font-family: serif;
+ 
+}
+
+  th{
+   
+    text-align: center;
+    height: 200x;
+  }
+
+a{margin: 3px;
+color: blue;
+}
+
+button{
+  font-size: 15px;
+}
+/* section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+} */

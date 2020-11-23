@@ -1,0 +1,17 @@
+<h1>WELCOME ADMINISTRATOR</h1>
+<div>
+    <button mat-raised-button color="primary" [routerLink]="['/admin/company']"
+        routerLinkActive="router-link-active">All Companies</button>
+
+    <button mat-raised-button color="primary" [routerLink]="['/admin/customer']"
+        routerLinkActive="router-link-active">All Customers</button>
+<br>
+        <button (click)="openDialog('getCompany', {})" mat-raised-button color="primary" >get one Company</button>
+
+        <button (click)="openDialog('getCustomer',{})" mat-raised-button color="primary">get one  Customer</button>
+
+        
+
+
+</div>
+

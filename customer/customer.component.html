@@ -1,0 +1,15 @@
+<h1>welcome customer </h1>
+<h3>Choose yours task</h3>
+<div>
+    <button mat-raised-button color="primary" [routerLink]="['/customer/get-customer-coupons']" routerLinkActive="router-link-active" >customer coupons</button>
+    <br>
+    <button mat-raised-button color="primary" [routerLink]="['/customer/get-all-coupons']" routerLinkActive="router-link-active">Purchase From All Coupons</button>
+   <br>
+   <button (click)="openDialog('sort By Category', {})" mat-raised-button color="primary" >customer coupons sort by category</button>
+<br>
+<button (click)="openDialog('sort By Max Price', {})" mat-raised-button color="primary" >customer coupons sort by Max Price</button>
+<br>
+    <button mat-raised-button color="primary" [routerLink]="['/customer/get-customer-details']" routerLinkActive="router-link-active">Customer Details</button>
+</div>
+
+

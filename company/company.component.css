@@ -1,0 +1,11 @@
+h1,h3{
+    font-family:Georgia serif ;
+    color: blue;
+  }
+
+  button{
+    margin: 3px;
+    width: 300px;
+  }
+
+  /* , 'Times New Roman', Times, serif */
